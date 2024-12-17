@@ -24,21 +24,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
-
-# package.json
-{
-  "name": "quickpass",
-  "version": "1.0.0",
-  "description": "Temporary account generator browser extension",
-  "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
-  },
-  "dependencies": {
-    "crypto-js": "^4.1.1"
-  },
-  "devDependencies": {
-    "webpack": "^5.75.0",
-    "webpack-cli": "^4.10.0"
-  }
-}
