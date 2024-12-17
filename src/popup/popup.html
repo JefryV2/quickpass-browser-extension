@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuickPass</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <h1>QuickPass</h1>
+    <button id="generateAccountBtn">Generate Temp Account</button>
+    <div id="credentialsDisplay" class="hidden">
+      <p>Email: <span id="tempEmail"></span></p>
+      <p>Password: <span id="tempPassword"></span></p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
+# src/popup/popup.css
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.popup-container {
+  text-align: center;
+}
+
+#generateAccountBtn {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
